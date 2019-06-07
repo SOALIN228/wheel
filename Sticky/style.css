@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#topbar {
+    background: green;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    background: #ddd;
+    height: 800px;
+}
+
+#topbar.sticky {
+    width: 100%;
+}
