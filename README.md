@@ -14,3 +14,7 @@
 **遇到的问题**:使用 fixed 做粘性导航，添加 sticky 后会将原来的位置空出来，这样下面的元素就会跑到上面去
 
 **解决办法**:通过 js 动态生成一个wrapper 站住位置
+
+## Dialog
+
+**学到的技巧**: 使用 get template () 可以在对象中生成 this.template
