@@ -1,0 +1,39 @@
+.soalinSuggestion {
+    position: relative;
+    /*border: 1px solid red;*/
+    display: inline-block;
+}
+
+.soalinSuggestion-loading {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.soalinSuggestion.loading .soalinSuggestion-loading {
+    display: block;
+}
+
+.soalinSuggestion-list {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    /*border: 1px solid green;*/
+    top: 100%;
+    left: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.soalinSuggestion.loading .soalinSuggestion-list {
+    display: none;
+}
+
+.soalinSuggestion.empty .soalinSuggestion-empty {
+    display: block;
+}
+
+.soalinSuggestion-empty {
+    display: none;
+}
