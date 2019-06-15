@@ -7,6 +7,32 @@
 
 
 
+## 别人的轮子
+
+**标准库的扩充**
+underscore.js 扩充了 Array 和 Object 相关 API
+moment.js 扩充了 Date
+**DOM 的扩充**
+jQuery.js 操作 DOM
+video.js 操作 video
+Fabric.js 操作 canvas
+**UI 组件**
+纯 CSS 的 UI 组件库，如 Bulma  https://bulma.io/
+大而全的 UI 框架（CSS + JS），如 Bootstrap、Element UI
+**垂直领域的 UI 组件**
+专门做轮播的 Swiper http://idangero.us/swiper/demos/
+专门做输入提示的 typeahead.js https://twitter.github.io/typeahead.js/
+专门做文件上传的 fine-uploader
+专门做 3D 瓦片效果的 vanilla-tilt.js https://micku7zu.github.io/vanilla-tilt.js/
+专门做视差效果的 parallax.js  http://matthew.wagerfield.com/parallax/
+专门做数据可视化的 D3.js http://mbostock.github.io/d3/talk/20111116/airports.html
+专门做图表的 echarts.js
+专门做动画的 velocity.js
+专门做粒子效果的 particle.js
+专门做手势识别的 hammer.js
+
+
+
 ## Tabs
 
 **遇到的问题**:直接使用 tabs 元素来查找，在使用多个 tabs 元素的时候，只会选中第一个 tabs 后面的 tabs 永远不会被选中
@@ -63,3 +89,8 @@ bindEvents () {
 }
 ```
 
+
+
+## Slide
+
+注意暴露的接口设计就好，多看优秀的轮子是怎么设计的
