@@ -11,24 +11,37 @@
 
 **标准库的扩充**
 underscore.js 扩充了 Array 和 Object 相关 API
+
 moment.js 扩充了 Date
 **DOM 的扩充**
 jQuery.js 操作 DOM
+
 video.js 操作 video
+
 Fabric.js 操作 canvas
 **UI 组件**
 纯 CSS 的 UI 组件库，如 Bulma  https://bulma.io/
+
 大而全的 UI 框架（CSS + JS），如 Bootstrap、Element UI
 **垂直领域的 UI 组件**
 专门做轮播的 Swiper http://idangero.us/swiper/demos/
+
 专门做输入提示的 typeahead.js https://twitter.github.io/typeahead.js/
+
 专门做文件上传的 fine-uploader
+
 专门做 3D 瓦片效果的 vanilla-tilt.js https://micku7zu.github.io/vanilla-tilt.js/
+
 专门做视差效果的 parallax.js  http://matthew.wagerfield.com/parallax/
+
 专门做数据可视化的 D3.js http://mbostock.github.io/d3/talk/20111116/airports.html
+
 专门做图表的 echarts.js
+
 专门做动画的 velocity.js
+
 专门做粒子效果的 particle.js
+
 专门做手势识别的 hammer.js
 
 
@@ -57,9 +70,9 @@ Fabric.js 操作 canvas
 
 ## Suggestion
 
-**遇到的问题：**搜索时用户每次输入都会执行一次，这样在用户快速输入的时候，用户体验很差
+**遇到的问题**：搜索时用户每次输入都会执行一次，这样在用户快速输入的时候，用户体验很差
 
-**解决办法:**使用函数节流，如果用户在一段时间内连续输入，则只执行最后一次操作
+**解决办法**:使用函数节流，如果用户在一段时间内连续输入，则只执行最后一次操作
 
 自己实现的节流
 
