@@ -10,20 +10,27 @@
 ## 别人的轮子
 
 **标准库的扩充**
+
 underscore.js 扩充了 Array 和 Object 相关 API
 
 moment.js 扩充了 Date
+
 **DOM 的扩充**
+
 jQuery.js 操作 DOM
 
 video.js 操作 video
 
 Fabric.js 操作 canvas
+
 **UI 组件**
+
 纯 CSS 的 UI 组件库，如 Bulma  https://bulma.io/
 
 大而全的 UI 框架（CSS + JS），如 Bootstrap、Element UI
+
 **垂直领域的 UI 组件**
+
 专门做轮播的 Swiper http://idangero.us/swiper/demos/
 
 专门做输入提示的 typeahead.js https://twitter.github.io/typeahead.js/
